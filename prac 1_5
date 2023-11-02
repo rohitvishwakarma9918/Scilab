@@ -1,0 +1,5 @@
+A =imread("C:\Program Files\scilab-6.1.1\IPCV\images\Lena_dark.png");
+B =imread('gaussian.jpg');
+C =imsubtract(A,B);
+imshow(C);
+imwrite(C,'Difference.png')
